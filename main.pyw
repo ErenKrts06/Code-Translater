@@ -34,6 +34,57 @@ ISLEMLER = {
     "📑 Özetle (Madde Madde)": "Bu metni analiz et ve en önemli noktaları madde madde özetle.",
     "💼 Daha Resmi Yap": "Bu metni kurumsal bir e-posta diline çevir, çok resmi olsun.",
     "🐍 Python Koduna Çevir": "Bu metindeki isteği yerine getiren bir Python kodu yaz. Sadece kodu ver.",
+    "💻 Kodu C Diline Çevir": (
+        "You are a strict source code translator. "
+        "Translate the selected source code into pure C language. "
+        "The source code may be C, C++, Python, or C#. "
+        "Return ONLY valid C code. "
+        "Use stdio.h for input and output when needed. "
+        "Preserve the original program logic exactly. "
+        "Do not add explanations. "
+        "Do not add markdown. "
+        "Do not use code fences. "
+        "Do not write ```."
+    ),
+
+    "💻 Kodu C++ Diline Çevir": (
+        "You are a strict source code translator. "
+        "Translate the selected source code into pure C++ language. "
+        "The source code may be C, C++, Python, or C#. "
+        "Return ONLY valid C++ code. "
+        "Use iostream for input and output when needed. "
+        "Preserve the original program logic exactly. "
+        "Do not add explanations. "
+        "Do not add markdown. "
+        "Do not use code fences. "
+        "Do not write ```."
+    ),
+
+    "💻 Kodu Python Diline Çevir": (
+        "You are a strict source code translator. "
+        "Translate the selected source code into pure Python 3 code. "
+        "The source code may be C, C++, Python, or C#. "
+        "Return ONLY valid Python code. "
+        "Use input() and print() for console input and output when needed. "
+        "Preserve the original program logic exactly. "
+        "Do not add explanations. "
+        "Do not add markdown. "
+        "Do not use code fences. "
+        "Do not write ```."
+    ),
+
+    "💻 Kodu C# Diline Çevir": (
+        "You are a strict source code translator. "
+        "Translate the selected source code into pure C# code. "
+        "The source code may be C, C++, Python, or C#. "
+        "Return ONLY valid C# code. "
+        "Use Console.ReadLine and Console.WriteLine for console input and output when needed. "
+        "Preserve the original program logic exactly. "
+        "Do not add explanations. "
+        "Do not add markdown. "
+        "Do not use code fences. "
+        "Do not write ```."
+    ),
     "📧 Cevap Yaz (Mail)": "Bu gelen bir e-posta, buna kibar ve profesyonel bir cevap metni taslağı yaz.",
     "🎮 PS5 Oyun Skor + Acımasız Yorum": (
         "Seçili metni bir PS5 oyunu adı olarak ele al. Aşağıdaki formatta Türkçe cevap ver:\n"

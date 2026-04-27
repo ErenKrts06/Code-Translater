@@ -11,12 +11,12 @@ import queue
 
 # --- AYARLAR ---
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_ADI = "gemini-3-flash-preview:latest"  # Ana model (F8)
+MODEL_ADI = "qwen2.5-coder:1.5b"  # Ana model (F8)
 TEXT_MODEL_CANDIDATES = [
     MODEL_ADI,
-    "gemini-3-flash-preview:cloud",
+    "qwen2.5-coder:1.5b",
+    "codellama:latest",
 ]
-
 KISAYOL_METIN = keyboard.Key.f8  # Metin secimi icin kisayol
 
 
